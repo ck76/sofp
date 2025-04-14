@@ -16,6 +16,8 @@
 %\end{psinputs}
 \usepackage{pstricks}
 
+\usepackage{cmap}
+
 % Cover picture on first page.
 \usepackage{wallpaper}
 % Custom commands for cover page.
@@ -79,6 +81,7 @@
 
 % Scala syntax highlighting. See https://tex.stackexchange.com/questions/202479/unable-to-define-scala-language-with-listings
 \usepackage[T1]{fontenc}
+\usepackage{lmodern}
 \usepackage[utf8]{inputenc}
 %\usepackage{beramono}
 %\usepackage{listings}
