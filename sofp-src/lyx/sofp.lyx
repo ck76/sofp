@@ -7,7 +7,7 @@
 \textclass scrbook
 \begin_preamble
 \usepackage[all]{xy} % xypic
-
+\usepackage{cmap}
 % pstricks with support for pdflatex
 %\usepackage{pdftricks}
 %\begin{psinputs}
@@ -78,8 +78,8 @@
 % The LyX document will define a macro \bbnum{#1} that calls \custombb{#1}.
 
 % Scala syntax highlighting. See https://tex.stackexchange.com/questions/202479/unable-to-define-scala-language-with-listings
-%\usepackage[T1]{fontenc}
-%\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 %\usepackage{beramono}
 %\usepackage{listings}
 % The listing settings are now supported by LyX in a separate section "Listings".
