@@ -32,7 +32,7 @@ jobs:
         
       - name: Upload built PDF
         id: upload-pdf
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: PDF files and LaTeX logs
           path: |
